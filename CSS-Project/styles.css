@@ -1,0 +1,23 @@
+label{
+    color: white;
+}
+
+a{
+    color: aliceblue;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+input[type='text']{
+    display: block;
+    margin: 12px;
+    padding: 14px 20px;
+}
+
+hr{width: 80%;}
