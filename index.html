@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="Home">
         <nav>
                 <!--Use of semantic element(nav) to create Navbar-->
             <ul>
                <!--Creating an unordered List for the links-->
-                <li><a href="">Home</a></li><!--Lists of Navlinks-->
-                <li><a href="">About</a></li>   
-                <li><a href="">Resume</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#Home" class="link">Home</a></li><!--Lists of Navlinks-->
+                <li><a href="#About" class="link">About</a></li>   
+                <li><a href="#Resume" class="link">Resume</a></li>
+                <li><a href="#contact" class="link">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,10 +27,10 @@
 
 
     <!--About Section-->
-    <section>
+    <section id="About">
         <h1>About Me</h1>
         <figure>
-            <img src="https://i0.wp.com/pixahive.com/wp-content/uploads/2021/05/Stylish-boy-posing-on-the-street-438537-pixahive.jpg?fit=2048%2C2560&ssl=1" alt="Cool Boy">
+            <img class="image" src="https://i0.wp.com/pixahive.com/wp-content/uploads/2021/05/Stylish-boy-posing-on-the-street-438537-pixahive.jpg?fit=2048%2C2560&ssl=1" alt="Cool Boy">
             <figcaption>I am a <b>13 year old Boy</b></figcaption>
     
         </figure>
@@ -38,7 +38,7 @@
 
 
     <!--Work Section-->
-    <section>
+    <section id="Resume">
         <h1>My Work Experience:</h1>
         <ol><!--Ordered list with numbers as bullet points -->
             <li>A Python Programmer</li>
@@ -65,7 +65,7 @@
         </div>
     </section>
     <!--Footer Section-->
-    <footer>
+    <footer id="#contact">
         <form>
             <input placeholder="Name" type="text">
             <input type="text" placeholder="Last Name">

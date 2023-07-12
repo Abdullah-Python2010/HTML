@@ -1,12 +1,13 @@
 /* 
 Assigning Default Values to the Entire Webpage */
 body{
-    background: linear-gradient(to right, purple, #331e64);
+    background: linear-gradient(to right, pink, #3316e4);
     color:#fff;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Roboto';
     text-decoration: none;
     margin: 0;
     text-align: center;
+    scroll-behavior: smooth;
 
 }
 /* Styling the Nav and its Children */
@@ -16,18 +17,22 @@ nav{
 }
 
 nav ul li{
-    display: inline-block;
+    display: inline;
     margin: 20px;
 
 }
 
-nav ul li a{
+.link{
     color: #fff;
     text-decoration: none;
 }
+
+.link:hover{
+    color: green;
+}
 /* 
 Setting Default values for Images */
-img{
+.image{
     width: 30%;
     border-radius: 10px;
 }
